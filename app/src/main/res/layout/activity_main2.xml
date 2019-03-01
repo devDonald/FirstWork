@@ -45,6 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:drawableRight="@drawable/ic_person_name"
             android:hint="Name"
             android:textColorHint="@color/white"
             android:inputType="textPersonName"
@@ -57,6 +58,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:ems="10"
+            android:drawableRight="@drawable/ic_phone"
             android:hint="Phone Number"
             android:inputType="phone"
             android:maxLength="11"
@@ -64,6 +66,7 @@
             />
 
         <EditText
+            android:drawableRight="@drawable/ic_email"
             android:id="@+id/et_email_address"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
